@@ -8,3 +8,11 @@ tr:hover {
   color: #fff;
   transition: 0.5s;
 }
+
+table{
+  text-align: center;
+}
+
+thead{
+  
+}

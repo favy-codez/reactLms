@@ -17,7 +17,7 @@ function Table({ internsdetails }) {
               <th scope="col">Name</th>
               <th scope="col">Email</th>
               <th scope="col">Phone Number</th>
-              <th scope="col">Total score</th>
+              <th scope="col">Total Score = 100</th>
             </tr>
           </thead>
           <tbody>

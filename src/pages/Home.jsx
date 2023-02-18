@@ -31,6 +31,11 @@ function Home() {
       age: "20",
       address: "ifite",
       github: "emma@github.com",
+      task1: 20,
+      task2: 8,
+      task3: 12,
+      task4: 30,
+      task5: 20,
     },
     {
       id: 3,
