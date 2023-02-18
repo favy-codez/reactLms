@@ -2,7 +2,7 @@ img {
   width: 20px;
 }
 
-tr:hover {
+tbody tr:hover {
   cursor: pointer;
   background-color: rgb(59, 59, 59);
   color: #fff;
@@ -15,5 +15,5 @@ table{
 
 thead{
   font-size: 16px;
-  font-weight: 1000;
+  font-weight: 800;
 }

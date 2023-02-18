@@ -10,13 +10,13 @@ function Table({ internsdetails }) {
   return (
     <div>
       <div className="container">
-        <h1 className="text-center mt-3">Interns</h1>
+        <h1 className="text-center mt-3">Interns Scoreboard</h1>
         <table className="table">
           <thead>
             <tr>
               <th scope="col">NAME</th>
               <th scope="col">EMAIL</th>
-              <th scope="col">PHONE NUMBER</th>
+              <th scope="col">Track</th>
               <th scope="col">TOTAL SCORE = 100</th>
             </tr>
           </thead>
@@ -25,7 +25,7 @@ function Table({ internsdetails }) {
               <tr key={intern.id} onClick={() => getInternDetail(intern.id)}>
                 <td>{intern.name}</td>
                 <td>{intern.email}</td>
-                <td>{intern.phone}</td>
+                <td>{intern.track}</td>
                 <td>{intern.total}</td>
               </tr>
             ))}
