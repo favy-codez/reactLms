@@ -25,7 +25,7 @@ function Interndetail() {
     <div className="internDetail">
       <div className="nav">
       <h2 className="dashboard">Dashboard</h2>
-      <p>Dashboard => {inertnDetail.name}'s profile</p>
+      <p>Dashboard  =>  {inertnDetail.name}'s profile</p>
       </div>
       
 
@@ -38,23 +38,29 @@ function Interndetail() {
         </div>
       </div>
 
-      <table className="intern-one">
-      <tr>
-        <th scope="col">Task1</th>
-        <th scope="col">Task2</th>
-        <th scope="col">Task3</th>
-        <th scope="col">Task4</th>
-        <th scope="col">Task5</th>
-        <th scope="col">Total</th>
+      <table className="table">
+        <thead className="table-dark">
+        <tr>
+        <th >Task 1</th>
+        <th >Task2</th>
+        <th >Task 3</th>
+        <th >Task 4</th>
+        <th >Task 5</th>
+        <th >Total</th>
       </tr>
-      <tr>
-        <td>{inertnDetail.task1}</td>
-        <td>{inertnDetail.task2}</td>
-        <td>{inertnDetail.task3}</td>
-        <td>{inertnDetail.task4}</td>
-        <td>{inertnDetail.task5}</td>
-        <td>{inertnDetail.total}</td>
+        </thead>
+      
+        <tbody>
+          <tr>
+            <td>{inertnDetail.task1}</td>
+            <td>{inertnDetail.task2}</td>
+            <td>{inertnDetail.task3}</td>
+            <td>{inertnDetail.task4}</td>
+            <td>{inertnDetail.task5}</td>
+          <td>{inertnDetail.total}</td>
       </tr>
+        </tbody>
+      
       </table>
     </div>
   );
