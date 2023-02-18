@@ -5,6 +5,7 @@ function Table({ internsdetails }) {
   console.log(internsdetails);
   return (
     <div>
+      <div className="container">
       <table>
         <tr>
           <th>Name</th>
@@ -12,7 +13,7 @@ function Table({ internsdetails }) {
           <th>Phone Number</th>
           <th>Total score</th>
         </tr>
-        <tbody>
+        <tr className="data">
           {internsdetails.map((intern) => (
             <Link to={`interndetail/${intern.id}`} key={intern.id}>
               <td>{intern.name}</td>
@@ -21,8 +22,9 @@ function Table({ internsdetails }) {
               <td>{intern.total}</td>
             </Link>
           ))}
-        </tbody>
+        </tr>
       </table>
+      </div>
     </div>
   );
 }

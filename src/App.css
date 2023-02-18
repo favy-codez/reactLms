@@ -1,20 +1,39 @@
-table {
+.container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 100%; */
-  border-collapse: collapse;
-}
-
-table,
-th,
-td, tbody {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
+  width: 100%;
 }
 
 a {
   display: block;
 }
+
+table{
+  width: 100%;
+  text-align: left;
+}
+
+.data{
+
+}
+/* table {
+  
+  /* text-align: center; */
+  /* width: 60%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ */
+
+/* th, td {
+  padding: 15px;
+  text-align: left;
+} */ 
