@@ -1,29 +1,36 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Table({ internsdetails }) {
-  console.log(internsdetails);
+  const navigate = useNavigate();
+  function getInternDetail(id) {
+    navigate(`/interndetail/${id}`);
+  }
+
   return (
     <div>
       <div className="container">
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Phone Number</th>
-          <th>Total score</th>
-        </tr>
-        <tr className="data">
-          {internsdetails.map((intern) => (
-            <Link to={`interndetail/${intern.id}`} key={intern.id}>
-              <td>{intern.name}</td>
-              <td>{intern.email}</td>
-              <td>{intern.phone}</td>
-              <td>{intern.total}</td>
-            </Link>
-          ))}
-        </tr>
-      </table>
+        <h1 className="text-center mt-3">Interns</h1>
+        <table className="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Phone Number</th>
+              <th scope="col">Total score</th>
+            </tr>
+          </thead>
+          <tbody>
+            {internsdetails.map((intern) => (
+              <tr key={intern.id} onClick={() => getInternDetail(intern.id)}>
+                <td>{intern.name}</td>
+                <td>{intern.email}</td>
+                <td>{intern.phone}</td>
+                <td>{intern.total}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );

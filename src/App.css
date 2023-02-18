@@ -1,39 +1,10 @@
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+img {
+  width: 20px;
 }
 
-a {
-  display: block;
+tr:hover {
+  cursor: pointer;
+  background-color: rgb(59, 59, 59);
+  color: #fff;
+  transition: 0.5s;
 }
-
-table{
-  width: 100%;
-  text-align: left;
-}
-
-.data{
-
-}
-/* table {
-  
-  /* text-align: center; */
-  /* width: 60%;
-  border-collapse: collapse;
-  border: 1px solid black;
-}
-
-td,th{
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
- */
-
-/* th, td {
-  padding: 15px;
-  text-align: left;
-} */ 

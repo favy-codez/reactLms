@@ -22,10 +22,27 @@ function Interndetail() {
   console.log(inertnDetail);
 
   return (
-    <div>
-      <h2>Name: {inertnDetail.name}</h2>
-      <p>Age: {inertnDetail.age}</p>
-      <img src={inertnDetail.img_url} alt="" />
+    <div className="internDetail">
+      <div className="d-flex align-center">
+        <img src={inertnDetail.img_url} alt="" />
+        <h2>Name: {inertnDetail.name}</h2>
+      </div>
+      <tr>
+        <th scope="col">Task1</th>
+        <th scope="col">Task2</th>
+        <th scope="col">Task3</th>
+        <th scope="col">Task4</th>
+        <th scope="col">Task5</th>
+        <th scope="col">Total</th>
+      </tr>
+      <tr>
+        <td>{inertnDetail.task1}</td>
+        <td>{inertnDetail.task2}</td>
+        <td>{inertnDetail.task3}</td>
+        <td>{inertnDetail.task4}</td>
+        <td>{inertnDetail.task5}</td>
+        <td>{inertnDetail.total}</td>
+      </tr>
     </div>
   );
 }
