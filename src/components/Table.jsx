@@ -14,10 +14,10 @@ function Table({ internsdetails }) {
         <table className="table">
           <thead>
             <tr>
-              <th scope="col">Name</th>
-              <th scope="col">Email</th>
-              <th scope="col">Phone Number</th>
-              <th scope="col">Total Score = 100</th>
+              <th scope="col">NAME</th>
+              <th scope="col">EMAIL</th>
+              <th scope="col">PHONE NUMBER</th>
+              <th scope="col">TOTAL SCORE = 100</th>
             </tr>
           </thead>
           <tbody>
