@@ -39,6 +39,7 @@ function Home() {
     },
     {
       id: 3,
+      img_url: pic1,
       name: "Joy Akin",
       email: "Joy@gmail.com",
       track: "Frontend",
@@ -54,6 +55,7 @@ function Home() {
     },
     {
       id: 4,
+      img_url: pic1,
       name: "Paul Per",
       email: "Paul@gmail.com",
       track: "Frontend",
@@ -69,6 +71,7 @@ function Home() {
     },
     {
       id: 5,
+      img_url: pic1,
       name: "Chidalu Etuk",
       email: "chidalu@gmail.com",
       track: "Frontend",
@@ -84,6 +87,7 @@ function Home() {
     },
     {
       id: 6,
+      img_url: pic2,
       name: "Nse Francis",
       email: "nse@gmail.com",
       track: "Frontend",
@@ -99,6 +103,7 @@ function Home() {
     },
     {
       id: 7,
+      img_url: pic2,
       name: "Annie Ezechukwu",
       email: "annie@gmail.com",
       track: "Frontend",

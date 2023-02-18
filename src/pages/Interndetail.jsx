@@ -23,10 +23,22 @@ function Interndetail() {
 
   return (
     <div className="internDetail">
+      <div className="nav">
+      <h2 className="dashboard">Dashboard</h2>
+      <p>Dashboard => {inertnDetail.name}'s profile</p>
+      </div>
+      
+
       <div className="d-flex align-center">
         <img src={inertnDetail.img_url} alt="" />
-        <h2>Name: {inertnDetail.name}</h2>
+        <div className="container-2">
+          <h2 className="text-1">Name : {inertnDetail.name}</h2>
+          <h2 className="text-1">Email : {inertnDetail.email}</h2>
+          <h2 className="text-1">Track: Frontend</h2>
+        </div>
       </div>
+
+      <table className="intern-one">
       <tr>
         <th scope="col">Task1</th>
         <th scope="col">Task2</th>
@@ -43,6 +55,7 @@ function Interndetail() {
         <td>{inertnDetail.task5}</td>
         <td>{inertnDetail.total}</td>
       </tr>
+      </table>
     </div>
   );
 }

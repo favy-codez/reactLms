@@ -1,5 +1,6 @@
 img {
-  width: 20px;
+  width: 60px;
+  border-radius: 5px;
 }
 
 tbody tr:hover {
@@ -21,4 +22,27 @@ thead{
 .text-center{
   text-decoration: underline;
   margin: 4rem 0 2rem 0;
+}
+
+.align-center{
+  display: flex;
+  gap: 3rem;
+  padding: 1.5rem 0 0 4rem;
+}
+
+.dashboard{
+  text-align: left;
+  margin: 0rem 0 0rem 0;
+}
+
+.text-1{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav{
+  background-color: #e0dada;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0 0 2rem;
 }
