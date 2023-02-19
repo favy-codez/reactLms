@@ -55,7 +55,7 @@ thead{
 }
 
 .table{
-  display: block;
+  /* display: block; */
   margin: 3rem auto;
   width: 90%;
 }

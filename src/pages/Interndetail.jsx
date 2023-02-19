@@ -33,13 +33,15 @@ function Interndetail() {
         <img src={inertnDetail.img_url} alt="" />
         <div className="container-2">
           <h2 className="text-1">Name : {inertnDetail.name}</h2>
-          <h2 className="text-1">Email : {inertnDetail.email}</h2>
           <h2 className="text-1">Track: Frontend</h2>
+          <h2 className="text-1">Email : {inertnDetail.email}</h2>
+          <h2 className="text-1">Address: {inertnDetail.state}</h2>
+          <h2 className="text-1">Github : {inertnDetail.github}</h2>
         </div>
       </div>
 
       <table className="table">
-        <thead className="table-dark">
+        <thead>
         <tr>
         <th >Task 1</th>
         <th >Task2</th>
